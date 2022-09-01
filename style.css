@@ -1,0 +1,106 @@
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: orange;
+  display: flex;
+  place-content: center;
+  padding: 30px;
+}
+h1 {
+  display: flex;
+  place-content: center;
+  color: olivedrab;
+  font-size: 2rem;
+}
+nav {
+  display: flex;
+  place-content: center;
+  overflow: scroll;
+}
+
+a {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  font-size: 5rem;
+  color: cornsilk;
+}
+
+button {
+  color: orangered;
+  border-radius: 0%;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: orange;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 50px;
+  color: red;
+}
+
+img {
+  max-width: 100%;
+}
+
+#holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+  gap: 20px;
+}
+article {
+  border: solid 2px olivedrab;
+  padding: 20px;
+}
+
+article p:last-child {
+  font-size: 1.2rem;
+}
+
+#popop {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000aa;
+  overflow: scroll;
+}
+
+#popop article {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto;
+  border-radius: 25px;
+  padding: 12px;
+  background-color: white;
+  gap: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#luk {
+  position: fixed;
+  left: 82%;
+  padding: 1rem;
+  font-size: 1.7em;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

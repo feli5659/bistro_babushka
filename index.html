@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bistro Babushka</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">BISTRO BABUSHKA</a>
+      </div>
+    </header>
+
+    <nav class="main-menu">
+      <ul>
+        <button data-kategori="alle" class="valgt">ALLE</button>
+        <button data-kategori="forretter">FORRETTER</button>
+        <button data-kategori="hovedretter">HOVEDRETTER</button>
+        <button data-kategori="desserter">DESSERTER</button>
+        <button data-kategori="drikkevarer">DRIKKEVARER</button>
+      </ul>
+    </nav>
+    <section id="popop">
+      <div id="luk">LUK</div>
+      <article class="pop_article">
+        <h2></h2>
+        <img class="billede1" src="" alt="" />
+        <h3><span class="navn"></span></h3>
+        <p><span class="lang_beskrivelse"></span></p>
+        <p>Pris: <span class="pris"></span></p>
+      </article>
+    </section>
+
+    <h1>MENU</h1>
+    <main id="holder"></main>
+    <template>
+      <article>
+        <img class="billede" src="" alt="" />
+        <h2 class="navn"></h2>
+        <p class="kortbeskrivelse"></p>
+        <p class="pris"></p>
+      </article>
+    </template>
+    <script src="script.js"></script>
+  </body>
+</html>
