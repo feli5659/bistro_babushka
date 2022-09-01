@@ -25,7 +25,7 @@ function filtrerPersoner() {
   document.querySelector(".valgt").classList.remove("valgt"); //fjern klassen valgt fra den knap
   this.classList.add("valgt"); //marker den knap der er klikket på
   vis(); // kald funktionen vis(json) efter nye filter er sat
-  header.textContent = this.textContent;
+  // header.textContent = this.textContent;
 }
 
 // hent data via asynkrone metode
