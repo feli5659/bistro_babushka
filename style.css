@@ -104,3 +104,7 @@ article p:last-child {
   cursor: pointer;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+.valgt {
+  background-color: olivedrab;
+}

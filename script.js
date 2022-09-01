@@ -7,6 +7,7 @@ const options = {
 document.addEventListener("DOMContentLoaded", start);
 let filter = "alle";
 let json;
+const header = document.querySelector("nav h2");
 
 //første function kaldes efter DOM er loaded
 
